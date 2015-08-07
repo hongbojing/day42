@@ -1,2 +1,3 @@
 angular
-  .module('DeathNote',['ngRoutes']);
+  .module('DeathNote',['ngRoutes'])
+  .config(['$routeProvider',function($routeProvider){}]);
