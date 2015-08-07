@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" ng-app="DeathNote">
 <head>
   <meta charset="UTF-8">
   <title>day #</title>
@@ -7,7 +7,16 @@
   <link rel="stylesheet" href="css/anotherstyle.css">
 </head>
 <body>
+  <a href="#/users" class="btn btn-blue">users</a>
+  <a href="#/users/new" class="btn btn-blue">users new</a>
 
+  <a href="#/notes" class="btn btn-orange">notes</a>
+  <a href="#/notes/new" class="btn btn-orange">notes new</a>
+  <div ng-view></div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="./js/lib/angular/angular.min.js"></script>
+  <script src="./js/lib/angular/angular-route.min.js"></script>
+  <script src="./js/app.js"></script>
 
 </body>
 </html>
