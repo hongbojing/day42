@@ -1,2 +1,2 @@
 angular
-  .module('DeathNote',[]);
+  .module('DeathNote',['ngRoutes']);
